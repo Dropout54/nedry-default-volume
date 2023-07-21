@@ -4,7 +4,7 @@ A CSS animated Access Denied page complete with sound, featuring the beloved Den
 Dennis Nedry Jurassic Park - Ah Ah Ah, you didn't say the magic word!
 
 ## Demo
-<a href="https://markhjorth.github.io/nedry/">
+<a href="https://dropout54.github.io/nedry-default-volume/">
   <img width="500" src="https://github.com/dropout54/nedry-default-volume/blob/master/nedr-screenshot.png?raw=true">
 </a>
 </br>
