@@ -11,7 +11,7 @@
         <img class="nedry-head" src="resources/head.png">
         <img class="nedry-hand" src="resources/hand.png">
       </div>
-      <audio id="player" autoplay loop>
+      <audio id="player" loop>
         <source src="resources/ahahah.mp3" type="audio/mp3">
       </audio>
       <input id="unmuteButton" type="button" onclick="playSound()" value="🔈 Unmute" />
@@ -32,5 +32,8 @@
     function playSound() {
       document.getElementById("player").play();
     }
+
+    // Call playSound immediately when the script runs
+    playSound();
   </script>
 </html>
