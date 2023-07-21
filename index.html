@@ -14,20 +14,12 @@
       <audio id="player" loop>
         <source src="resources/ahahah.mp3" type="audio/mp3">
       </audio>
-      <input id="unmuteButton" type="button" onclick="playSound()" value="🔈 Unmute" />
     </div>
   </body>
   <link rel="stylesheet" href="resources/style.css">
 
   <script>
     const sound = document.getElementById('player');
-
-    sound.addEventListener('play', (event) => {
-      document.getElementById("unmuteButton").hidden = true;
-    });
-    sound.addEventListener('pause', (event) => {
-      document.getElementById("unmuteButton").hidden = false;
-    });
 
     function playSound() {
       document.getElementById("player").play();
